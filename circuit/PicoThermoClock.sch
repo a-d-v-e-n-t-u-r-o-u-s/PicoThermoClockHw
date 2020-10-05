@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Pico Thermo Clock "
 Date "2020-08-07"
-Rev "V0.0"
+Rev "V0.0.0"
 Comp "Adventurous 2020"
 Comment1 ""
 Comment2 ""
