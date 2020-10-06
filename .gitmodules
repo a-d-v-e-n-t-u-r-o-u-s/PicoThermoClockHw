@@ -4,3 +4,6 @@
 [submodule "libraries/adafruit"]
 	path = libraries/adafruit
 	url = git@github.com:ryanfobel/Adafruit-Eagle-Library.kicad.git
+[submodule "libraries/sparkfun"]
+	path = libraries/sparkfun
+	url = git@github.com:sparkfun/SparkFun-KiCad-Libraries.git
