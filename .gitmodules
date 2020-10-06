@@ -1,3 +1,6 @@
 [submodule "libraries/adventurous"]
 	path = libraries/adventurous
 	url = git@github.com:a-d-v-e-n-t-u-r-o-u-s/KiCadLibs.git
+[submodule "libraries/adafruit"]
+	path = libraries/adafruit
+	url = git@github.com:ryanfobel/Adafruit-Eagle-Library.kicad.git
