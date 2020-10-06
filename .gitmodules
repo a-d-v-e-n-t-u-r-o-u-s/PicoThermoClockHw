@@ -7,3 +7,6 @@
 [submodule "libraries/sparkfun"]
 	path = libraries/sparkfun
 	url = git@github.com:sparkfun/SparkFun-KiCad-Libraries.git
+[submodule "libraries/digikey"]
+	path = libraries/digikey
+	url = git@github.com:Digi-Key/digikey-kicad-library.git
