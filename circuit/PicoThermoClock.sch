@@ -1051,8 +1051,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 3800 3500 5800
 Wire Wire Line
-	3500 5800 6200 5800
-Wire Wire Line
 	3110 3900 3300 3900
 Wire Wire Line
 	3110 4000 3300 4000
@@ -1249,9 +1247,6 @@ Wire Wire Line
 	6550 6550 6200 6550
 Wire Wire Line
 	6200 6550 6200 5800
-Connection ~ 6200 5800
-Wire Wire Line
-	6200 5800 6600 5800
 $Comp
 L power:+5V #PWR0109
 U 1 1 5F4DDA46
@@ -1282,6 +1277,34 @@ Wire Wire Line
 	6550 6650 6500 6650
 Wire Wire Line
 	6500 6650 6500 6700
+$Comp
+L Device:R R15
+U 1 1 5FA8FEA8
+P 6200 5450
+F 0 "R15" V 6130 5190 50  0000 L CNN
+F 1 "4k7" V 6130 5590 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 5450 50  0001 C CNN
+F 3 "~" H 6200 5450 50  0001 C CNN
+	1    6200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5FA8FEB2
+P 6200 5200
+F 0 "#PWR0111" H 6200 5050 50  0001 C CNN
+F 1 "+5V" H 6215 5373 50  0000 C CNN
+F 2 "" H 6200 5200 50  0001 C CNN
+F 3 "" H 6200 5200 50  0001 C CNN
+	1    6200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5200 6200 5300
+Wire Wire Line
+	3500 5800 6200 5800
+Wire Wire Line
+	6200 5800 6200 5600
 Wire Bus Line
 	4100 6400 4100 6800
 Wire Bus Line
@@ -1296,4 +1319,7 @@ Wire Bus Line
 	6200 3500 6200 4500
 Wire Bus Line
 	8700 2800 8700 4500
+Connection ~ 6200 5800
+Wire Wire Line
+	6200 5800 6600 5800
 $EndSCHEMATC
